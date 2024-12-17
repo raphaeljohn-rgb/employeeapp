@@ -1,0 +1,73 @@
+
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#2AA3F4"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/img"
+
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:text="USERNAME :"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/uname"
+        android:textSize="40dp"
+        android:textColor="#4A5AF8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:text="PASSWORD :"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/pass"
+        android:textColor="#4A5AF8"
+        android:inputType="textPassword"
+        android:textSize="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="L O G I N"
+        android:textColor="@color/white"
+        android:background="@drawable/box"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/login"
+        />
+
+
+
+
+</LinearLayout>

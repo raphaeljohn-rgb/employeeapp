@@ -1,0 +1,50 @@
+
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#83BDF2"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ADD AN EMPLOYEE"
+        android:textColor="@color/white"
+        android:background="@drawable/box"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/addemp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SEARCH AN EMPLOYEE"
+        android:textColor="@color/white"
+        android:background="@drawable/box"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/searchemp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="L O G O U T"
+        android:textColor="@color/white"
+        android:background="@drawable/box2"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/logout"
+        />
+
+
+
+
+</LinearLayout>
